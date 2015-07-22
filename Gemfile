@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -21,6 +21,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 #install bootstrap
 gem 'bootstrap-sass'
+#install devise
+gem 'devise', '~> 3.5.1'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
