@@ -29,6 +29,11 @@ gem 'devise', '~> 3.5.1'
 gem 'paperclip', '~> 4.3'
 #install amazon s3 gem
 gem 'aws-sdk', '< 2.0'
+#install pagination
+gem 'will_paginate', '~> 3.0.5'
+
+#install pagination bootstrap
+gem 'will_paginate-bootstrap'
 
 #install masonry
 gem 'masonry-rails'
