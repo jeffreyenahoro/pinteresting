@@ -3,11 +3,14 @@
 
 $font-family-sans-serif: "Shadows into light", Helvetica, Arial, sans-serif;
 $jumbotron-bg: white;
+$panel-default-text: red;
 $body-bg: #ecf0f1;
 $navbar-default-bg: white;
 $btn-primary-bg:orange;
 $navbar-default-brand-color: red;
 $navbar-default-font: Arial;
+
+$link-colour: red;
 
 
 @import 'bootstrap';
@@ -22,4 +25,8 @@ $navbar-default-font: Arial;
 
 .orbitron{
 	font-family: "Orbitron",  sans-serif;
+}
+
+.Red{
+	link-colour: red;
 }
